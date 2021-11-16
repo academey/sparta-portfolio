@@ -25,7 +25,7 @@ export default function TitlebarImageList() {
             title={item.title}
             subtitle={item.author}
             actionIcon={
-              <Link href={`mailto:${item.author}`}>Email to author
+              <Link href={`mailto:${item.author}`}>Email
               <IconButton
                 sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
                 aria-label={`info about ${item.title}`}
